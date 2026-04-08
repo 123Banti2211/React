@@ -16,7 +16,7 @@ const App = () => {
 
     setTask(copyTask)
 
-    setTitle('')
+    setTitle('')  
     setDetails('')
   }
 

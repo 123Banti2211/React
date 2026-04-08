@@ -5,12 +5,16 @@ const App3 = () => {
   const [num, setNum] = useState(10)
 
   const btnClicked = () => {
+    //This will work
     setNum(prev => (prev + 1))
     setNum(prev => (prev + 1))
     setNum(prev => (prev + 1))
+    
+    //This will not work
     // setNum(num+1)
     // setNum(num+1)
     // setNum(num+1)
+    
   }
 
   return (

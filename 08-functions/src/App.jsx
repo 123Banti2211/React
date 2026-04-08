@@ -16,7 +16,8 @@ const App = () => {
   }
   return (
     <div>
-      <button onMouseEnter={mouseenter} onClick={btnClicked}>Click</button>
+      <button onMouseEnter={mouseenter} onClick={btnClicked}>Click Here</button>
+      
       <div>
         <input onClick={()=>{
           console.log('input click');
@@ -27,6 +28,7 @@ const App = () => {
           
         }} type="text" placeholder='Enter name' />
       </div>
+
       <div onMouseMove={(elem)=>{
         console.log("hi");
         console.log(elem.clientX);
